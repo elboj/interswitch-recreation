@@ -86,10 +86,10 @@ main {
   height: 100vh;
 }
 
-section {
+section,
+header {
   width: 95vw;
   height: auto;
   padding: 1.25rem;
-  background: $secondary-color;
   margin: 0 auto;
 }
