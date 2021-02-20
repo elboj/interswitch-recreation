@@ -14,3 +14,19 @@ for the nav bar... default would be row.. on small screen it changes to column w
 *set a background for all properties except the one for the logo
 *set the width to 100% and then set transition
 * all this happens with the onclick of hamburger menu
+
+
+For our media queries, we are working with a top to bottom approach. this means that rather than use min-width in media queries, we would make
+use of max-width, being we are scaling from top to bottom
+
+1440px
+1024
+768
+425
+375
+320
+
+320
+481
+641
+981

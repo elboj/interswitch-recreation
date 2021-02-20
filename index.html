@@ -5,9 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Document</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
   </head>
   <body>
-    <main>
+    <header id="header-container">
+      <!-- The purpose of this group holder is for getting the page
+      layout on small screen i.e 768px and < -->
+      <div id="group-holder">
+        <div class="nav-logo-holder">
+          <a href="#">
+            <img
+              id="header-logo"
+              src="img/interswitch_logo.svg"
+              alt="interswitch-logo"
+            />
+          </a>
+        </div>
+
+        <!-- Nav Links
+        ===============================================
+        nav container set to display none by default
+        for small screen sizes. Hamburger toggles it to
+        display flex
+        -->
+        <nav id="nav-container">
+          <div class="nav-links-holder">
+            <a class="nav-links drop-downs" href="#">About Us</a>
+          </div>
+          <div class="nav-links-holder">
+            <a class="nav-links drop-downs" href="#">What We Do</a>
+          </div>
+          <div class="nav-links-holder">
+            <a class="nav-links" href="">Financial Inclusion</a>
+          </div>
+          <div class="nav-links-holder">
+            <a class="nav-links" href="#">Corporate Responsibility</a>
+          </div>
+          <div class="nav-links-holder">
+            <a class="nav-links" href="#">News & Insights</a>
+          </div>
+        </nav>
+
+        <!-- FLAGS HIDDEN ON DEFAULT -->
+        <div class="country-holder">
+          <a href="#">
+            <img src="img/nigeria.png" id="country" alt="nigeria" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Toggle button holder -->
+      <div id="toggle-holder">
+        <button id="nav-toggle-btn" class="btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- <main>
       <section>
         <h1>Welcome</h1>
         <h2>Welcome</h2>
@@ -15,7 +73,7 @@
         <h4>Welcome</h4>
         Testing Paddings
       </section>
-    </main>
+    </main> -->
     <script src="app.js"></script>
   </body>
 </html>

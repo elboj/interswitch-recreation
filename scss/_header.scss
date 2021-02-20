@@ -1,0 +1,67 @@
+#header-container {
+  display: flex;
+  justify-content: space-between;
+
+  #group-holder {
+    display: flex;
+    flex-direction: column;
+
+    .nav-logo-holder {
+      display: flex;
+      align-items: center;
+
+      #header-logo {
+        width: 150px;
+        height: auto;
+      }
+    }
+
+    #nav-container {
+      //display set to none by default
+      display: none;
+      flex-direction: column;
+
+      //top and bottom padding for all nav links
+      * {
+        padding: 0.6rem 0;
+      }
+    }
+
+    .country-holder {
+      display: flex;
+      align-items: center;
+
+      #country {
+        display: none;
+        width: 35px;
+        height: 25px;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  #toggle-holder {
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+
+    #nav-toggle-btn {
+      width: 40px;
+      font-size: 1.3rem;
+      color: $primary-color;
+      background: transparent;
+    }
+  }
+}
+
+//Transitioning Effect for the Nav links. Syling is done on the .nav-links holder and not the links directly
+.nav-links-holder {
+  transition: $transition;
+}
+
+.nav-links-holder:hover {
+  transform: scale(1.1);
+  transition: $transition;
+}
+
+//////////////////////////
