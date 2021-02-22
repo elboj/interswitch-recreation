@@ -64,7 +64,7 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 0.1rem;
+  // letter-spacing: 0.1rem;
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
@@ -104,6 +104,14 @@ section,
 header {
   max-width: 90vw;
   height: auto;
-  padding: 1.25rem;
+  padding: 1rem;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 970px) {
+  section,
+  header {
+    max-width: 95vw;
+    padding: 1rem;
+  }
 }
