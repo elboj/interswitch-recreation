@@ -102,7 +102,6 @@ header {
   section,
   header {
     max-width: 95vw;
-    padding: 1rem;
   }
 }
 
@@ -378,6 +377,24 @@ header {
   display: none;
 }
 
+#about-us {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#about-us-heading, #abous-us-desc {
+  padding-bottom: 0.8rem;
+}
+
+#abous-us-desc {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+#about-us p:nth-child(3) {
+  font-weight: lighter;
+}
+
 @media screen and (min-width: 1341px) {
   .nav-logo-holder {
     padding-right: 2rem;
@@ -449,6 +466,13 @@ header {
     top: 210px !important;
     right: 50px !important;
   }
+  #about-us {
+    margin-top: 4rem;
+  }
+  #abous-us-desc {
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+  }
 }
 
 @media screen and (min-width: 481px) {
@@ -468,6 +492,9 @@ header {
   }
   #home-play {
     font-size: 60px;
+  }
+  #abous-us-desc {
+    font-size: 2rem;
   }
 }
 
