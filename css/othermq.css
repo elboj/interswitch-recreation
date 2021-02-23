@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  #home-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #home-text,
+  #home-text-desc {
+    padding-right: 0.79rem;
+  }
+  #video-player {
+    width: 400px;
+    margin-top: 1.875rem;
+  }
+  #home-dots {
+    top: 210px !important;
+    right: 50px !important;
+  }
+}
+/*# sourceMappingURL=othermq.css.map */

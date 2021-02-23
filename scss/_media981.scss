@@ -1,0 +1,48 @@
+@media screen and (min-width: 981px) {
+  #header-container {
+    max-width: 100% !important;
+    justify-content: center;
+  }
+
+  #group-holder {
+    flex-direction: row !important;
+  }
+
+  #nav-container {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0.5rem;
+
+    * {
+      padding-right: 1.3rem !important;
+    }
+  }
+
+  #toggle-holder {
+    display: none !important;
+  }
+
+  #country {
+    display: inline-block !important;
+  }
+
+  //TOP HOME SECTION MQUERY
+  #home-container {
+    flex-direction: row;
+  }
+
+  #home-text,
+  #home-text-desc {
+    padding-right: 0.79rem;
+  }
+
+  #video-player {
+    width: 420px !important;
+    margin-top: 1.875rem;
+  }
+
+  #home-dots {
+    top: 210px !important;
+    right: 50px !important;
+  }
+}

@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  #home-container {
+    flex-direction: row;
+  }
+
+  #home-text,
+  #home-text-desc {
+    padding-right: 5.79rem;
+  }
+
+  #video-player {
+    width: 300px;
+    margin-top: 1.875rem;
+  }
+
+  #home-dots {
+    top: 120px;
+    right: 0px;
+  }
+}

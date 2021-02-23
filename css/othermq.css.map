@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,eAAe,CAAC;IACd,cAAc,EAAE,GAAG;GACpB;EAED,AAAA,UAAU;EACV,eAAe,CAAC;IACd,aAAa,EAAE,OAAO;GACvB;EAED,AAAA,aAAa,CAAC;IACZ,KAAK,EAAE,KAAK;IACZ,UAAU,EAAE,QAAQ;GACrB;EAED,AAAA,UAAU,CAAC;IACT,GAAG,EAAE,gBAAgB;IACrB,KAAK,EAAE,eAAe;GACvB",
+    "sources": [
+        "../scss/othermq.scss"
+    ],
+    "names": [],
+    "file": "othermq.css"
+}

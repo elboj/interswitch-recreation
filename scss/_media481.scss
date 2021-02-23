@@ -1,0 +1,22 @@
+@media screen and (min-width: 481px) {
+  #home-text {
+    letter-spacing: 0rem;
+  }
+
+  #video-player {
+    height: 250px !important;
+    z-index: 2;
+  }
+
+  #home-dots {
+    display: block !important;
+    position: absolute;
+    z-index: 1;
+    top: 485px;
+    right: 90px;
+  }
+
+  #home-play {
+    font-size: 60px;
+  }
+}
