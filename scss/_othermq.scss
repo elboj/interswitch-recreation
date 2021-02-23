@@ -17,4 +17,14 @@
     top: 120px;
     right: 0px;
   }
+
+  //CARD SECTION
+  #card-container {
+    flex-direction: row;
+
+    .card-holder {
+      width: 30%;
+      height: 200px;
+    }
+  }
 }

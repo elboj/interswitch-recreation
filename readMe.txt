@@ -2,7 +2,7 @@ PROJECT DESCRIPTION
 
 DAY 1: Work on the navigation menu for all responsive screen sizes
 DAY 2: Work on scrolling news text, and the main section all responsive
-DAY 3: Work on WHO WE ARE section
+DAY 3: Work on WHO WE ARE section    //make adjustment for 641px for home top section video player
 DAY 4: Work on parallax to certification section
 DAY 5: Work on connect with us and footer section
 Day 6: Project Clean up (Including getting alternative images)

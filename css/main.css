@@ -395,6 +395,56 @@ header {
   font-weight: lighter;
 }
 
+#card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#card-container .card-holder {
+  padding: 0.8rem 0;
+}
+
+#card-container .card-holder img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#card-container .card-holder .card-desc {
+  font-weight: 800;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+}
+
+#card-container .card-holder .card-addinfo, #card-container .card-holder .card-links {
+  color: #353f50;
+  font-size: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+#card-container .card-holder .card-links {
+  color: #479fc8 !important;
+  position: relative;
+}
+
+#card-container .card-holder .card-links .card-link-arrow {
+  position: absolute;
+  width: 27px !important;
+  height: auto;
+  bottom: 8px;
+  left: 83px;
+}
+
 @media screen and (min-width: 1341px) {
   .nav-logo-holder {
     padding-right: 2rem;
@@ -412,6 +462,13 @@ header {
   #home-text-desc,
   #home-container #home-left-section #home-text-link {
     padding-right: 10.79rem !important;
+  }
+  .card-holder {
+    width: 30%;
+    height: 250px !important;
+  }
+  .card-desc {
+    font-size: 1.5rem !important;
   }
 }
 
@@ -517,6 +574,16 @@ header {
   #home-dots {
     top: 120px;
     right: 0px;
+  }
+  #card-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #card-container .card-holder {
+    width: 30%;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=main.css.map */
