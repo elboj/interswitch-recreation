@@ -1,4 +1,7 @@
 @media screen and (min-width: 1341px) {
+  #home-container {
+    margin: 4rem auto;
+  }
   .nav-logo-holder {
     padding-right: 2rem;
   }
@@ -21,6 +24,9 @@
   }
 
   //CARD SECTION
+  #card-container {
+    margin-bottom: 4rem;
+  }
   .card-holder {
     width: 30%;
 
