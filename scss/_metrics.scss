@@ -1,0 +1,19 @@
+#metrics-container {
+  display: flex;
+  flex-direction: column;
+
+  .metric-swipe-right,
+  .metric-swipe-left {
+    display: flex;
+    flex-direction: column;
+
+    #metric-heading,
+    #metric-desc {
+      padding-bottom: 0.8rem;
+    }
+  }
+}
+
+#metric-heading {
+  font-size: 1.8rem;
+}

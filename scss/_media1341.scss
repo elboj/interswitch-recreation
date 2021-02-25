@@ -23,10 +23,23 @@
   //CARD SECTION
   .card-holder {
     width: 30%;
-    height: 250px !important;
+
+    .card-img {
+      height: 250px !important;
+    }
   }
 
   .card-desc {
     font-size: 1.5rem !important;
+  }
+
+  //KEY METRICS SECTION
+  #metrics-container {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #metric-heading {
+    font-size: 2.1rem !important;
   }
 }

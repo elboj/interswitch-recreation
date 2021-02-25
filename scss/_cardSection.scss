@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   .card-holder {
     padding: 0.8rem 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 
     img {
       width: 100%;

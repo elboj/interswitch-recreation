@@ -78,11 +78,23 @@ h4 {
 .btn {
   border: transparent;
   border-radius: 0.25 rem;
+  display: block;
 }
 
 .btn:hover {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.btn-common {
+  width: 150px;
+  height: 50px;
+  background: #479fc8;
+  color: white;
+  display: block;
+  -webkit-box-shadow: 0px 7px 12px rgba(7, 7, 7, 0.3);
+          box-shadow: 0px 7px 12px rgba(7, 7, 7, 0.3);
+  border-radius: 5px;
 }
 
 main {
@@ -410,6 +422,14 @@ header {
 
 #card-container .card-holder {
   padding: 0.8rem 0;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #card-container .card-holder img {
@@ -445,6 +465,38 @@ header {
   left: 83px;
 }
 
+#metrics-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#metrics-container .metric-swipe-right,
+#metrics-container .metric-swipe-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#metrics-container .metric-swipe-right #metric-heading,
+#metrics-container .metric-swipe-right #metric-desc,
+#metrics-container .metric-swipe-left #metric-heading,
+#metrics-container .metric-swipe-left #metric-desc {
+  padding-bottom: 0.8rem;
+}
+
+#metric-heading {
+  font-size: 1.8rem;
+}
+
 @media screen and (min-width: 1341px) {
   .nav-logo-holder {
     padding-right: 2rem;
@@ -465,10 +517,24 @@ header {
   }
   .card-holder {
     width: 30%;
+  }
+  .card-holder .card-img {
     height: 250px !important;
   }
   .card-desc {
     font-size: 1.5rem !important;
+  }
+  #metrics-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #metric-heading {
+    font-size: 2.1rem !important;
   }
 }
 
@@ -576,14 +642,33 @@ header {
     right: 0px;
   }
   #card-container {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  #card-container .card-holder {
+    width: 30%;
+  }
+  #metrics-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  #card-container .card-holder {
-    width: 30%;
-    height: 200px;
+  #metrics-container .metric-swipe-right,
+  #metrics-container .metric-swipe-left {
+    width: 500px;
+  }
+  #metric-heading {
+    font-size: 1.6rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #metric-heading {
+    font-size: 1.8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

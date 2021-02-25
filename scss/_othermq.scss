@@ -20,11 +20,31 @@
 
   //CARD SECTION
   #card-container {
-    flex-direction: row;
+    flex-direction: row !important;
 
     .card-holder {
       width: 30%;
-      height: 200px;
     }
+  }
+
+  //KEY METRICS SECTION
+  #metrics-container {
+    flex-direction: row;
+
+    .metric-swipe-right,
+    .metric-swipe-left {
+      width: 500px;
+    }
+  }
+
+  #metric-heading {
+    font-size: 1.6rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #metric-heading {
+    font-size: 1.8rem;
   }
 }

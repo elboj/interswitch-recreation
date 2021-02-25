@@ -90,10 +90,21 @@ h4 {
 .btn {
   border: transparent;
   border-radius: $radius;
+  display: block;
 }
 
 .btn:hover {
   transition: $transition;
+}
+
+.btn-common {
+  width: 150px;
+  height: 50px;
+  background: $secondary-color;
+  color: white;
+  display: block;
+  box-shadow: 0px 7px 12px rgba(7, 7, 7, 0.3);
+  border-radius: 5px;
 }
 
 main {
