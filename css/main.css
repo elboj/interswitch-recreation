@@ -109,6 +109,10 @@ header {
   margin: 0 auto;
 }
 
+.parallax {
+  max-width: 100vw;
+}
+
 @media screen and (max-width: 970px) {
   section,
   header {
@@ -419,7 +423,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 #card-container .card-holder {
@@ -535,6 +539,34 @@ header {
 
 .metric-infographics-holder .ingographic-holder .info-desc {
   font-size: 1rem;
+}
+
+.parallax {
+  color: white;
+  background-image: url(../img/bigimg-1.jpg);
+  /* Set a specific height */
+  min-height: 1004px;
+  margin-top: 50px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.par-heading {
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 1341px) {
@@ -723,6 +755,14 @@ header {
   }
   .info-desc {
     text-align: center;
+  }
+  .par-heading {
+    width: 500px;
+  }
+  .fl-right {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 

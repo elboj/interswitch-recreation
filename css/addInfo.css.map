@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/addInfo.scss"
+    ],
+    "names": [],
+    "file": "addInfo.css"
+}
