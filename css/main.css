@@ -78,7 +78,6 @@ h4 {
 .btn {
   border: transparent;
   border-radius: 0.25 rem;
-  display: block;
 }
 
 .btn:hover {
@@ -86,20 +85,10 @@ h4 {
   transition: all 0.3s linear;
 }
 
-.btn-common {
-  width: 150px;
-  height: 50px;
-  background: #479fc8;
-  color: white;
-  display: block;
-  -webkit-box-shadow: 0px 7px 12px rgba(7, 7, 7, 0.3);
-          box-shadow: 0px 7px 12px rgba(7, 7, 7, 0.3);
-  border-radius: 5px;
-}
-
 main {
   max-width: 100vw;
-  height: 100vh;
+  height: 100%;
+  border: 2px solid #25bb32;
 }
 
 section,
@@ -114,6 +103,7 @@ header {
   section,
   header {
     max-width: 95vw;
+    margin: 0 auto;
   }
 }
 
@@ -313,6 +303,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 2rem auto;
+  border: 2px solid #bb2525;
 }
 
 #home-container #home-left-section {
@@ -392,6 +384,7 @@ header {
 #about-us {
   text-align: center;
   margin-top: 3rem;
+  border: 2px solid #6be675;
 }
 
 #about-us-heading, #abous-us-desc {
@@ -418,6 +411,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 #card-container .card-holder {
@@ -473,6 +467,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 3rem 0;
 }
 
 #metrics-container .metric-swipe-right,

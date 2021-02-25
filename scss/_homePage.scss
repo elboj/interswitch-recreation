@@ -1,6 +1,8 @@
 #home-container {
   display: flex;
   flex-direction: column;
+  margin: 2rem auto;
+  border: $b1;
 
   #home-left-section {
     display: flex;
