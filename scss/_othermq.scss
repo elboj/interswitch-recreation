@@ -41,6 +41,16 @@
     font-size: 1.6rem;
     padding-right: 1rem;
   }
+
+  //INFPGRAPHICS
+  .metric-infographics-holder {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info-desc {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {

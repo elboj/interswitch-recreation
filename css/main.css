@@ -497,6 +497,43 @@ header {
   font-size: 1.8rem;
 }
 
+.metric-infographics-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.metric-infographics-holder .ingographic-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.metric-infographics-holder .ingographic-holder img {
+  width: 70px;
+}
+
+.metric-infographics-holder .ingographic-holder .info-heading {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.metric-infographics-holder .ingographic-holder .info-desc {
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 1341px) {
   .nav-logo-holder {
     padding-right: 2rem;
@@ -535,6 +572,9 @@ header {
   }
   #metric-heading {
     font-size: 2.1rem !important;
+  }
+  .ingographic-holder img {
+    width: 150px !important;
   }
 }
 
@@ -663,6 +703,17 @@ header {
   #metric-heading {
     font-size: 1.6rem;
     padding-right: 1rem;
+  }
+  .metric-infographics-holder {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .info-desc {
+    text-align: center;
   }
 }
 
