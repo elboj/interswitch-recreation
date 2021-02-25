@@ -569,6 +569,32 @@ header {
   margin-bottom: 3rem;
 }
 
+#add-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem auto;
+}
+
+#add-info-container #add-info-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#add-info-container #add-info-holder img {
+  width: 100px;
+}
+
+#add-info-container #add-info-holder #add-info-header {
+  font-size: 1.7rem;
+  padding: 1.2rem 0;
+}
+
 @media screen and (min-width: 1341px) {
   #home-container {
     margin: 4rem auto;
@@ -616,6 +642,12 @@ header {
   }
   .ingographic-holder img {
     width: 150px !important;
+  }
+  #add-info-holder {
+    width: 600px !important;
+  }
+  #add-info-header {
+    font-size: 2.4rem !important;
   }
 }
 
@@ -763,6 +795,18 @@ header {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  #add-info-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #add-info-container #add-info-holder {
+    width: 400px;
+    border: 2px solid #bb2525;
   }
 }
 

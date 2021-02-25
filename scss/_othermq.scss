@@ -60,6 +60,17 @@
   .fl-right {
     align-self: center;
   }
+
+  //additional info section
+  #add-info-container {
+    justify-content: center;
+    align-items: center;
+
+    #add-info-holder {
+      width: 400px;
+      border: $b1;
+    }
+  }
 }
 
 @media screen and (min-width: 1024px) {
