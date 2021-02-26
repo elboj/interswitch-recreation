@@ -109,10 +109,13 @@ header {
   margin: 0 auto;
 }
 
-.parallax {
+/*===============================*/
+.parallax,
+.certificate-container {
   max-width: 100vw;
 }
 
+/*================================*/
 @media screen and (max-width: 970px) {
   section,
   header {
@@ -595,6 +598,87 @@ header {
   padding: 1.2rem 0;
 }
 
+.certificate-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f3f5f6;
+}
+
+.certificate-container #certificate-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.certificate-container #certificate-left #cert-heading {
+  font-size: 2rem;
+  padding-bottom: 1.2rem;
+}
+
+.certificate-container #certificate-left #cert-desc {
+  padding-bottom: 1.2rem;
+}
+
+.certificate-container #certificate-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 0 !important;
+}
+
+.certificate-container #certificate-right #cert-img {
+  width: 300px;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  50% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  50% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
 @media screen and (min-width: 1341px) {
   #home-container {
     margin: 4rem auto;
@@ -648,6 +732,22 @@ header {
   }
   #add-info-header {
     font-size: 2.4rem !important;
+  }
+  .certificate-container {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+  }
+  #certificate-left,
+  #certificate-right {
+    width: 600px !important;
+  }
+  #cert-heading {
+    margin-top: 12rem;
   }
 }
 
@@ -806,6 +906,21 @@ header {
   }
   #add-info-container #add-info-holder {
     width: 400px;
+  }
+  .certificate-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #certificate-left {
+    width: 400px;
+  }
+  #certificate-right {
+    width: 400px;
+  }
+  #cert-img {
+    width: 400px !important;
   }
 }
 

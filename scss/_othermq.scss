@@ -70,6 +70,22 @@
       width: 400px;
     }
   }
+
+  //certificate section
+  .certificate-container {
+    flex-direction: row;
+  }
+
+  #certificate-left {
+    width: 400px;
+  }
+  #certificate-right {
+    width: 400px;
+  }
+
+  #cert-img {
+    width: 400px !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {

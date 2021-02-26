@@ -1,0 +1,45 @@
+.certificate-container {
+  display: flex;
+  flex-direction: column;
+  background: #f3f5f6;
+
+  #certificate-left {
+    display: flex;
+    flex-direction: column;
+
+    #cert-heading {
+      font-size: 2rem;
+      padding-bottom: 1.2rem;
+    }
+    #cert-desc {
+      padding-bottom: 1.2rem;
+    }
+  }
+
+  #certificate-right {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0 !important;
+
+    #cert-img {
+      width: 300px;
+      animation-name: bounce;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
