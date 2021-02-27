@@ -8,6 +8,10 @@ DAY 5: Work on connect with us and footer section
 Day 6: Project Clean up (Including getting alternative images)
 Day 7: Project Clean up
 
+clean up and mixins
+
+
+
 
 for the nav bar... default would be row.. on small screen it changes to column with only logo showing and other components hidden.
 
