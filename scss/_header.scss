@@ -16,7 +16,7 @@
       }
     }
 
-    #nav-container {
+    .nav-container {
       //display set to none by default
       display: none;
       flex-direction: column;
@@ -65,3 +65,8 @@
 }
 
 //////////////////////////
+.nav-container-show {
+  display: flex !important;
+  z-index: 2;
+  transition: all 8s linear !important;
+}
