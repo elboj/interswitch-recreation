@@ -9,8 +9,9 @@ Day 6: Project Clean up (Including getting alternative images)
 Day 7: Project Clean up
 
 MAJOR CLEAN UP. USE MIXIN PROP
-pushing innovation section at 1024px cleanup
-check margins at 768px important
+pop up menu onclick
+card section icons
+add see source code everywhere there's learn more
 
 
 
