@@ -124,6 +124,7 @@ header {
   }
 }
 
+/*================================*/
 #header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -679,6 +680,65 @@ header {
   }
 }
 
+#contact-container {
+  height: 450px;
+  background: #18425d;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact-container #contact-button-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+}
+
+#contact-container #contact-button-holder .contact-btn {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 0.9rem;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+#contact-container #contact-button-holder #btn-blue {
+  background: #479fc8;
+  border: transparent;
+}
+
+#contact-container #contact-button-holder #btn-white {
+  background: transparent;
+  border: 2px solid white;
+}
+
+#contact-container p:first-child {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+#contact-container p:nth-child(2) {
+  font-size: 1.1rem;
+}
+
 @media screen and (min-width: 1341px) {
   #home-container {
     margin: 4rem auto;
@@ -921,6 +981,32 @@ header {
   }
   #cert-img {
     width: 400px !important;
+  }
+  #contact-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 85% !important;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 5rem;
+  }
+  #contact-button-holder {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  #contact-container p:nth-child(2) {
+    padding: 0.8rem 10rem !important;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .contact-btn {
+    width: 250px;
+    height: 50px;
+    margin: 0px 10px;
+    font-size: 0.9rem;
   }
 }
 
