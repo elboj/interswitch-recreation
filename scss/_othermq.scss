@@ -113,10 +113,33 @@
     margin: 0px 10px;
     font-size: 0.9rem;
   }
+
+  //FOOTER SECTION
+  .footer {
+    @include flex-row;
+    justify-content: center;
+  }
+
+  .footer-links {
+    margin: 0 10px !important;
+  }
+
+  //social section
+
+  .socials {
+    @include flex-row;
+    width: 60%;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   #metric-heading {
     font-size: 1.8rem;
+  }
+
+  //footer
+  .footer-links {
+    margin: 0 25px !important;
   }
 }
