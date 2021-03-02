@@ -7,7 +7,6 @@ for (let i = 0; i < scrollNews.length; i++) {
 //OPENING AND CLOSING OF SIDE BAR
 const aside = document.querySelector(".nav-container");
 const navBtn = document.querySelector("#nav-toggle-btn");
-// const dots = document.querySelector("#home-dots");
 
 navBtn.addEventListener("click", () => {
   document.getElementById("home-dots").style.display = "none";
